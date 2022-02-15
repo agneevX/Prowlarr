@@ -51,7 +51,7 @@ namespace NzbDrone.Core.Indexers.Rarbg
             {
                 TvSearchParams = new List<TvSearchParam>
                        {
-                           TvSearchParam.Q, TvSearchParam.Season, TvSearchParam.Ep, TvSearchParam.ImdbId, TvSearchParam.TvdbId
+                           TvSearchParam.Q, TvSearchParam.Season, TvSearchParam.Ep, TvSearchParam.TvdbId, TvSearchParam.ImdbId
                        },
                 MovieSearchParams = new List<MovieSearchParam>
                        {
